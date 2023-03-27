@@ -30,19 +30,19 @@ Możemy zapisać ten układ równań w postaci macierzowej:
 
 Aby rozwiązać ten układ równań metodą eliminacji Jordana, wykonujemy następujące kroki:
 
-    Dołączamy wektor wyrazów wolnych do macierzy A, aby uzyskać macierz rozszerzoną:
+Dołączamy wektor wyrazów wolnych do macierzy A, aby uzyskać macierz rozszerzoną:
 
 [2 -1 1 | 5]
 [4 4 -3 | 3]
 [2 5 -4 | 6]
 
-    Wykonujemy operacje elementarne na macierzy rozszerzonej, aby uzyskać macierz górną trójkątną:
+Wykonujemy operacje elementarne na macierzy rozszerzonej, aby uzyskać macierz górną trójkątną:
 
 [2 -1 1 | 5]
 [0 6 -7 | -7]
 [0 0 -5 | -2]
 
-    Wykonujemy kolejne operacje elementarne na macierzy górnej trójkątnej, aby uzyskać macierz diagonalną:
+Wykonujemy kolejne operacje elementarne na macierzy górnej trójkątnej, aby uzyskać macierz diagonalną:
 
 [2 0 0 | 1]
 [0 6 0 | 1]
