@@ -3,16 +3,16 @@ Metoda eliminacji Jordana to jedna z metod rozwiązywania układów równań lin
 
 Kroki metody eliminacji Jordana są następujące:
 
-    Zapisz układ równań liniowych w postaci macierzowej Ax = b, gdzie A to macierz współczynników, x to wektor zmiennych i b to wektor wyrazów wolnych.
-    Dołącz do macierzy A wektor b, aby uzyskać macierz rozszerzoną [A|b].
-    Przeprowadź operacje elementarne na macierzy rozszerzonej, aby uzyskać macierz górną trójkątną. Można to zrobić poprzez wykonywanie następujących kroków:
-    a. Wybierz element główny w pierwszym wierszu i pierwszej kolumnie.
-    b. Wykonaj operacje elementarne na wierszach macierzy, aby wyzerować wszystkie elementy pod elementem głównym w pierwszej kolumnie.
-    c. Powtarzaj krok a i b dla kolejnych kolumn, aż uzyskasz macierz górną trójkątną.
-    Wykonaj kolejne operacje elementarne na macierzy górnym trójkątną, aby uzyskać macierz diagonalną. Można to zrobić poprzez wykonywanie następujących kroków:
-    a. Dla każdego elementu diagonalnego, wykonaj operacje elementarną, aby wyzerować wszystkie elementy nad nim.
-    b. Powtarzaj krok a dla kolejnych elementów diagonalnych, aż uzyskasz macierz diagonalną.
-    Odczytaj rozwiązanie układu równań z macierzy diagonalnej.
+Zapisz układ równań liniowych w postaci macierzowej Ax = b, gdzie A to macierz współczynników, x to wektor zmiennych i b to wektor wyrazów wolnych.
+Dołącz do macierzy A wektor b, aby uzyskać macierz rozszerzoną [A|b].
+Przeprowadź operacje elementarne na macierzy rozszerzonej, aby uzyskać macierz górną trójkątną. Można to zrobić poprzez wykonywanie następujących kroków:
+a. Wybierz element główny w pierwszym wierszu i pierwszej kolumnie.
+b. Wykonaj operacje elementarne na wierszach macierzy, aby wyzerować wszystkie elementy pod elementem głównym w pierwszej kolumnie.
+c. Powtarzaj krok a i b dla kolejnych kolumn, aż uzyskasz macierz górną trójkątną.
+Wykonaj kolejne operacje elementarne na macierzy górnym trójkątną, aby uzyskać macierz diagonalną. Można to zrobić poprzez wykonywanie następujących kroków:
+a. Dla każdego elementu diagonalnego, wykonaj operacje elementarną, aby wyzerować wszystkie elementy nad nim.
+b. Powtarzaj krok a dla kolejnych elementów diagonalnych, aż uzyskasz macierz diagonalną.
+Odczytaj rozwiązanie układu równań z macierzy diagonalnej.
 
 Metoda eliminacji Jordana jest skutecznym sposobem na rozwiązanie układów równań liniowych, ale może być czasochłonna, zwłaszcza dla dużych macierzy.
 
